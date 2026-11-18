@@ -49,10 +49,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 const args = process.argv.slice(2);
 const portArgIndex = args.indexOf("--port");
-const PORT = portArgIndex !== -1 && args[portArgIndex + 1]
-  ? Number(args[portArgIndex + 1])
-  : 3000;
-
+const PORT = Number(process.env.PORT) || 3000;
 app.use(express.json());
 
 // Keep RoadRisk endpoints off the workspace's shared /api service route.

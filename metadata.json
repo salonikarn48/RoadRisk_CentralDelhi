@@ -1,0 +1,6 @@
+{
+  "name": "RoadRisk Delhi",
+  "description": "Waterlogging susceptibility and emergency hospital access decision-support portal for Central Delhi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

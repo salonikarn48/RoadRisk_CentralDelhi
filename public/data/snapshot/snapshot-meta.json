@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-11-01T14:28:45.171Z",
+  "corridor": "Minto Bridge / ITO corridor, Central Delhi",
+  "bbox": {
+    "south": 28.61,
+    "west": 77.205,
+    "north": 28.648,
+    "east": 77.25
+  },
+  "method": "baseline",
+  "counts": {
+    "roads": 1720,
+    "segments": 3043,
+    "hospitals": 8,
+    "waterFeatures": 46,
+    "hotspots": 9,
+    "positiveLabels": 48
+  },
+  "roadSource": "OSM snapshot (downloaded Oct 29)",
+  "sha256": {
+    "roads.json": "deff31280d136655615212f1356c38bdb39a21d4e1b50fc5710bcda15d59e673",
+    "segments_features.json": "f4312039c6e65f9ff2ef3f33ffd987a026910bf9bbdd41acc1f8e4c2724fd91b",
+    "hospitals.json": "1bb6603b76b10d7d35ea1cd8d3d359f2f9bf50522b1a167c056ab46cfcb67a71",
+    "water.json": "eef7d757f2e825b7edc3dcdbfc1f5189aac6309894911efcf1f831851e13118d",
+    "hotspots.json": "5451401b45c54b747507366829321be0d8054717600c52da131b7b8533345b1f",
+    "vulnerability_scores.json": "6ba444e303f4df2513bcc9ebab3dcc624eb02c26bd353d3f94928df13fe12f82",
+    "metrics.json": "8489f8eb40919036edb66aafcc812edaf92d45d467ca269f47733cf9267ce7fd",
+    "closure_graph_quality.json": "cfd3857be81fdc17eae9def08428b9d7c35a37ba4937be84055277bfa3593c40"
+  },
+  "sourceNotes": "Frozen offline snapshot for Minto Bridge / ITO corridor (Central Delhi). Compiled from OSM snapshot (downloaded Oct 29), SRTM 30m elevation cache, Yamuna drainage hydrology, and hand-geocoded PWD/DTP monsoon advisories."
+}

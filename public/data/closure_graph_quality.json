@@ -1,0 +1,53 @@
+{
+  "nodeCount": 2779,
+  "edgeCount": 3969,
+  "onewayEdgeCount": 1480,
+  "componentCount": 16,
+  "largestComponentNodes": 2745,
+  "largestComponentShare": 0.9878,
+  "largestComponentPercent": "98.8%",
+  "stronglyConnectedComponentCount": 144,
+  "largestStrongComponentNodes": 2617,
+  "largestStrongComponentShare": 0.9417,
+  "largestStrongComponentPercent": "94.2%",
+  "largestStrongComponentLengthShare": 0.9401,
+  "largestStrongComponentLengthPercent": "94.0%",
+  "top10ComponentSizes": [
+    2745,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2
+  ],
+  "top10StrongComponentSizes": [
+    2617,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2
+  ],
+  "toleranceMeters": 20,
+  "isTwoWay": false,
+  "hospitalsTotal": 8,
+  "hospitalsSnapped": 8,
+  "hospitalsDropped": [],
+  "originsGenerated": 60,
+  "originsExcludedBaselineDisconnected": 0,
+  "originsActive": 60,
+  "notes": [
+    "One-way restrictions respected: 1480 of 3969 edges are one-way.",
+    "Largest weakly connected component contains 2745 nodes (98.8%).",
+    "Largest strongly connected component (SCC) contains 2617 nodes (94.2%), covering 94.0% of total segment length.",
+    "All 8 emergency hospitals and 60 origins are situated in the largest SCC with 100% baseline reachability."
+  ]
+}

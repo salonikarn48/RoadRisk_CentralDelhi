@@ -1,0 +1,90 @@
+[
+  {
+    "id": "hosp_lnjp",
+    "name": "Lok Nayak Hospital (LNJP / Civil Hospital)",
+    "lat": 28.6367,
+    "lon": 77.2403,
+    "emergency": "yes",
+    "type": "trauma",
+    "subType": "Major Trauma Centre & Tertiary Teaching Hospital",
+    "address": "Jawaharlal Nehru Marg, Delhi Gate",
+    "beds": 2000
+  },
+  {
+    "id": "hosp_gb_pant",
+    "name": "Govind Ballabh Pant Hospital (G.B. Pant)",
+    "lat": 28.6375,
+    "lon": 77.2385,
+    "emergency": "yes",
+    "type": "trauma",
+    "subType": "Super-Speciality Government Hospital",
+    "address": "1, Jawaharlal Nehru Marg, Raj Ghat",
+    "beds": 714
+  },
+  {
+    "id": "hosp_mamc",
+    "name": "Maulana Azad Medical College Hospital / Dental",
+    "lat": 28.636,
+    "lon": 77.2395,
+    "emergency": "yes",
+    "type": "trauma",
+    "subType": "Tertiary Teaching Hospital",
+    "address": "BSZ Marg, near Delhi Gate",
+    "beds": 350
+  },
+  {
+    "id": "hosp_guru_nanak",
+    "name": "Guru Nanak Eye Centre",
+    "lat": 28.6358,
+    "lon": 77.234,
+    "emergency": "no",
+    "type": "specialty",
+    "subType": "Speciality Eye Institute",
+    "address": "Maharaja Ranjit Singh Marg",
+    "beds": 200
+  },
+  {
+    "id": "hosp_northern_railway",
+    "name": "Northern Railway Central Hospital",
+    "lat": 28.641,
+    "lon": 77.2145,
+    "emergency": "yes",
+    "type": "trauma",
+    "subType": "Divisional Railway Hospital & Trauma Unit",
+    "address": "Basant Lane, Paharganj / Connaught Place",
+    "beds": 450
+  },
+  {
+    "id": "hosp_rml",
+    "name": "Dr. Ram Manohar Lohia Hospital (RML Hospital)",
+    "lat": 28.6245,
+    "lon": 77.2025,
+    "emergency": "yes",
+    "type": "trauma",
+    "subType": "Central Government Emergency & Super Speciality Hospital",
+    "address": "Baba Kharak Singh Marg",
+    "beds": 1420
+  },
+  {
+    "id": "hosp_lady_hardinge",
+    "name": "Sucheta Kriplani Hospital (Lady Hardinge Medical College)",
+    "lat": 28.6335,
+    "lon": 77.211,
+    "emergency": "yes",
+    "type": "trauma",
+    "subType": "Tertiary Women & General Hospital",
+    "address": "Shaheed Bhagat Singh Marg, Connaught Place",
+    "beds": 870
+  },
+  {
+    "id": "hosp_kalawati_saran",
+    "name": "Kalawati Saran Children's Hospital",
+    "lat": 28.6322,
+    "lon": 77.2125,
+    "emergency": "yes",
+    "type": "trauma",
+    "subType": "Government Paediatric Centre",
+    "address": "Bangla Sahib Marg, Connaught Place",
+    "beds": 350
+  }
+]

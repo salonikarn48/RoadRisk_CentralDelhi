@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-11-01T14:28:44.478Z",
+  "corridor": "Minto Bridge / ITO corridor, Central Delhi",
+  "cvScheme": "GroupKFold (5 folds) by sub_area_id",
+  "foldsTotal": 5,
+  "foldsUsable": 5,
+  "positiveCount": 48,
+  "totalSegments": 3043,
+  "baseRate": 0.01577,
+  "baseRatePercent": "1.58%",
+  "winner": "baseline",
+  "baseline": {
+    "rocAuc": 0.642,
+    "precisionAt10": 0,
+    "recallAt10": 0,
+    "precisionAt20": 0,
+    "recallAt20": 0,
+    "precisionAt5pct": 0,
+    "recallAt5pct": 0,
+    "liftAt10": 0,
+    "liftAt20": 0,
+    "liftAt5pct": 0
+  },
+  "model": {
+    "rocAuc": 0.6,
+    "precisionAt10": 0.1,
+    "recallAt10": 0.0208,
+    "precisionAt20": 0.1,
+    "recallAt20": 0.0417,
+    "precisionAt5pct": 0.0329,
+    "recallAt5pct": 0.1042,
+    "liftAt10": 6.34,
+    "liftAt20": 6.34,
+    "liftAt5pct": 2.09
+  },
+  "featureImportance": {
+    "elevation_mean": 0.1206,
+    "elevation_min": 0.1183,
+    "low_point_depth_m": 0.1,
+    "dist_to_water_m": 0.3617,
+    "is_underpass": 0.0038,
+    "length_m": 0.0873,
+    "lanes": 0.0605,
+    "hw_primary": 0,
+    "hw_secondary": 0.0866,
+    "hw_tertiary": 0.0137,
+    "hw_trunk": 0.0108,
+    "hw_residential": 0.0366,
+    "hw_motorway": 0
+  },
+  "confidenceIntervals": {
+    "resamples": 200,
+    "level": 0.9,
+    "baselineRocAuc": {
+      "low": 0.564,
+      "high": 0.7333,
+      "median": 0.6466
+    },
+    "modelRocAuc": {
+      "low": 0.4846,
+      "high": 0.7657,
+      "median": 0.6058
+    },
+    "notes": "90% empirical bootstrap interval from 200 sub_area block resamples."
+  },
+  "sanityChecks": {
+    "beyondTheList": {
+      "top5PercentTotal": 152,
+      "unlistedCount": 152,
+      "unlistedSharePercent": 100,
+      "baseRatePercent": 1.58,
+      "top5UnlistedSegments": [
+        {
+          "segmentId": "osm-1248031173#0",
+          "name": "Underpass",
+          "score": 1,
+          "rank": 1,
+          "reason": "Subterranean Railway/Road Underpass",
+          "highwayClass": "primary",
+          "isUnderpass": true,
+          "lowPointDepthM": 4
+        },
+        {
+          "segmentId": "osm-973071348#0",
+          "name": "Underpass",
+          "score": 0.9997,
+          "rank": 2,
+          "reason": "Subterranean Railway/Road Underpass",
+          "highwayClass": "primary",
+          "isUnderpass": true,
+          "lowPointDepthM": 2.95
+        },
+        {
+          "segmentId": "osm-973071349#0",
+          "name": "Underpass",
+          "score": 0.9993,
+          "rank": 3,
+          "reason": "Subterranean Railway/Road Underpass",
+          "highwayClass": "primary",
+          "isUnderpass": true,
+          "lowPointDepthM": 1.76
+        },
+        {
+          "segmentId": "osm-1248031172#0",
+          "name": "Underpass",
+          "score": 0.999,
+          "rank": 4,
+          "reason": "Subterranean Railway/Road Underpass",
+          "highwayClass": "primary",
+          "isUnderpass": true,
+          "lowPointDepthM": 1.71
+        },
+        {
+          "segmentId": "osm-973071387#1",
+          "name": "Pragati Maidan Tunnel",
+          "score": 0.9987,
+          "rank": 5,
+          "reason": "Subterranean Railway/Road Underpass",
+          "highwayClass": "primary",
+          "isUnderpass": true,
+          "lowPointDepthM": 3
+        }
+      ],
+      "caution": "These are candidates for field checking, not confirmed flooding spots.",
+      "top10PercentTotal": 304
+    },
+    "rankingVsRandom": {
+      "tiers": [
+        {
+          "percent": 5,
+          "numClosed": 152,
+          "model": {
+            "avgExtraDelayMin": 1.64,
+            "areasCutOff": 6,
+            "areasWithDelayOver10Min": 0
+          },
+          "baseline": {
+            "avgExtraDelayMin": 0.03,
+            "areasCutOff": 10,
+            "areasWithDelayOver10Min": 0
+          },
+          "random": {
+            "drawsCount": 50,
+            "avgExtraDelayMinMean": 0.78,
+            "avgExtraDelayMinMin": 0.29,
+            "avgExtraDelayMinMax": 1.77,
+            "areasCutOffMean": 4.5,
+            "areasCutOffMin": 1,
+            "areasCutOffMax": 10,
+            "areasWithDelayOver10MinMean": 0,
+            "areasWithDelayOver10MinMin": 0,
+            "areasWithDelayOver10MinMax": 0
+          }
+        },
+        {
+          "percent": 10,
+          "numClosed": 304,
+          "model": {
+            "avgExtraDelayMin": 0.76,
+            "areasCutOff": 19,
+            "areasWithDelayOver10Min": 0
+          },
+          "baseline": {
+            "avgExtraDelayMin": 0.45,
+            "areasCutOff": 15,
+            "areasWithDelayOver10Min": 0
+          },
+          "random": {
+            "drawsCount": 50,
+            "avgExtraDelayMinMean": 1.43,
+            "avgExtraDelayMinMin": 0.51,
+            "avgExtraDelayMinMax": 3.12,
+            "areasCutOffMean": 11.3,
+            "areasCutOffMin": 3,
+            "areasCutOffMax": 22,
+            "areasWithDelayOver10MinMean": 0.1,
+            "areasWithDelayOver10MinMin": 0,
+            "areasWithDelayOver10MinMax": 2
+          }
+        },
+        {
+          "percent": 20,
+          "numClosed": 609,
+          "model": {
+            "avgExtraDelayMin": 0.09,
+            "areasCutOff": 34,
+            "areasWithDelayOver10Min": 0
+          },
+          "baseline": {
+            "avgExtraDelayMin": 1.1,
+            "areasCutOff": 23,
+            "areasWithDelayOver10Min": 0
+          },
+          "random": {
+            "drawsCount": 50,
+            "avgExtraDelayMinMean": 3.36,
+            "avgExtraDelayMinMin": 0.04,
+            "avgExtraDelayMinMax": 11.21,
+            "areasCutOffMean": 36.9,
+            "areasCutOffMin": 21,
+            "areasCutOffMax": 59,
+            "areasWithDelayOver10MinMean": 1.4,
+            "areasWithDelayOver10MinMin": 0,
+            "areasWithDelayOver10MinMax": 22
+          }
+        }
+      ],
+      "verdict": "Score-ranked closures stayed within the range of random closures at 3 of 3 tiers, so this check does not show a consistent difference between ranked and random closures."
+    }
+  },
+  "notes": "Evaluation Notes:\n1. Spatial Cross-Validation: GroupKFold (5 folds) grouped by ~500m sub_area_id blocks to prevent spatial autocorrelation leakage.\n2. Usable Folds: 5 of 5 folds contained test positive samples.\n3. Winner Selection: Rule-Based Baseline outperformed the alternative on pooled out-of-fold spatial evaluation.\n4. Model Limitations:\n   - Proxy Label: Labels indicate proximity (<=100m) to historic PWD/DTP waterlogging spots, not hydraulic flood ground truth.\n   - Small Sample Support: 48 positive instances across 11 spatial blocks limit deep parameter exploration.\n   - Static Topography: Model measures structural vulnerability (underpasses, depression depth, river proximity); it does NOT simulate rainfall intensity or stormwater drain pipe hydraulic capacities."
+}

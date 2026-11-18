@@ -1,0 +1,128 @@
+[
+  {
+    "id": "minto-bridge",
+    "name": "Minto Bridge Railway Underpass",
+    "aliases": [
+      "Minto Road RUB",
+      "Shivaji Bridge Underpass",
+      "Swami Vivekananda Marg Cut"
+    ],
+    "lat": 28.6362,
+    "lon": 77.2241,
+    "radiusMeters": 300,
+    "isDemo": true,
+    "source": "Delhi Traffic Police / PWD Vulnerable Underpass List (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "ito-vikas-marg",
+    "name": "ITO Junction / Vikas Marg Corridor",
+    "aliases": [
+      "ITO Crossing",
+      "Income Tax Office Chowk",
+      "Vikas Marg Inundation Cut"
+    ],
+    "lat": 28.6293,
+    "lon": 77.2415,
+    "radiusMeters": 320,
+    "isDemo": true,
+    "source": "PWD Delhi Critical Waterlogging Hotspot Inventory (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "tilak-bridge",
+    "name": "Tilak Bridge Railway Underpass",
+    "aliases": [
+      "Tilak Bridge RUB",
+      "BSZ Marg Underpass",
+      "Appu Ghar Railway Cut"
+    ],
+    "lat": 28.6258,
+    "lon": 77.2384,
+    "radiusMeters": 280,
+    "isDemo": true,
+    "source": "Delhi Traffic Police Annual Waterlogging Spot Advisory (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "cp-outer-circle",
+    "name": "Connaught Place Outer Circle (Minto Cut)",
+    "aliases": [
+      "Connaught Circus Outer Ring",
+      "CP Radial 1 Minto Junction",
+      "Statesman House Cut"
+    ],
+    "lat": 28.6348,
+    "lon": 77.2205,
+    "radiusMeters": 260,
+    "isDemo": true,
+    "source": "NDMC Monsoon Preparedness Critical Inundation List (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "w-point-ring-road",
+    "name": "W-Point / Vikas Marg & Ring Road Loop",
+    "aliases": [
+      "W-Point Crossing",
+      "IP Estate Loop",
+      "Ring Road ITO Flyover Inundation Base"
+    ],
+    "lat": 28.631,
+    "lon": 77.2435,
+    "radiusMeters": 280,
+    "isDemo": true,
+    "source": "PWD Delhi Monitored Flood Inundation Spot (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "delhi-gate",
+    "name": "Delhi Gate / Asaf Ali Road Inundation Point",
+    "aliases": [
+      "Delhi Gate Crossing",
+      "Asaf Ali Road RUB Cut",
+      "LNJP Hospital North Approach"
+    ],
+    "lat": 28.6405,
+    "lon": 77.24,
+    "radiusMeters": 260,
+    "isDemo": true,
+    "source": "MCD City-SP Zone Waterlogging Vulnerability Register (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "mandi-house",
+    "name": "Mandi House & Sikandra Road Circle",
+    "aliases": [
+      "Mandi House Roundabout",
+      "Sikandra Road Crossing",
+      "Barakhamba Link"
+    ],
+    "lat": 28.6255,
+    "lon": 77.234,
+    "radiusMeters": 250,
+    "isDemo": true,
+    "source": "NDMC Drainage Masterplan Sensitive Node (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "barakhamba-tolstoy",
+    "name": "Barakhamba Road & Tolstoy Marg Junction",
+    "aliases": [
+      "Barakhamba Crossing",
+      "Tolstoy Marg Junction",
+      "CP Radial 4 Approach"
+    ],
+    "lat": 28.6288,
+    "lon": 77.2255,
+    "radiusMeters": 240,
+    "isDemo": true,
+    "source": "NDMC Monsoon Preparedness List (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  },
+  {
+    "id": "bhairon-marg",
+    "name": "Bhairon Marg Railway Underpass",
+    "aliases": [
+      "Bhairon Marg RUB",
+      "Pragati Maidan Railway Underpass",
+      "Ring Road Cut"
+    ],
+    "lat": 28.616,
+    "lon": 77.2465,
+    "radiusMeters": 300,
+    "isDemo": true,
+    "source": "Delhi Traffic Police Underpass Waterlogging Advisory (demo hotspots, based on public PWD/Delhi Traffic Police lists, not surveyed)"
+  }
+]
